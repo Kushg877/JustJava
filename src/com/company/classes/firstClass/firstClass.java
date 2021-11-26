@@ -12,6 +12,9 @@ public class firstClass {
 //           then it see values in constructor if defines in class
 //           then finally if values is defined in main class then that will be final value otherwise value in
 //           constructor(if defined) will be final otherwise default value set in class will be final
+//           There is a catch-----> if you initialize any value while defining but change that value in respective
+//           constructor then the value in constructor will be final as in case of prashant object below and
+//           if you change value in maine after that declaring statement then that value will be final
 //           otherwise default value of that datatype will be final.
 
         Students[] student = new Students[5]; // By default stores null value.
@@ -32,6 +35,7 @@ public class firstClass {
         rahul.greeting();
 
         Students prashant = new Students(13 , "prashant" , 15.54f);
+        System.out.println(prashant.rno+" is");
         prashant.greeting();
 
         Students bhavesh = new Students(prashant);
@@ -70,7 +74,7 @@ class Students{
     Students(int rno , String name , float marks){
         // put "this" if variable name is same
         System.out.println("Object is created");
-        this.rno = rno;
+        this.rno = 99;
         this.name = name;
         this.marks = marks;
 
