@@ -24,8 +24,6 @@ public class Main {
 //        this also means, that the ones you are trying to access should be initialized
 //        but here, when the obj itself is of type parent class, how will you call the constructor of child class
         BoxPrice box6 = new BoxPrice(1,2,3,4,5);
-
         System.out.println(box6.h);
-
     }
 }
