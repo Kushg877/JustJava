@@ -15,4 +15,13 @@ public class BoxWeight extends Box{
         System.out.println(super.w); // ---> should initialize before any child class because it does not care about what child class contains
         this.weight = weight;
     }
+    public BoxWeight(double weight) {
+        super();
+        this.weight = -1;
+    }
+    public BoxWeight(BoxWeight other ) {
+        super(other);
+        this.weight = -1;
+
+    }
 }
