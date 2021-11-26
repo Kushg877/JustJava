@@ -96,7 +96,7 @@ public class ThingstoLearn {
 //        and it will call object class (all classes are by default inherited from object class)
 //        It can also be use as this keyword like super.variable_name but the only difference is
 //        it will only be able to access super class keyword
-//        Example
+//        Ex:
 //        System.out.println(super.variable_name);
     }
 }
