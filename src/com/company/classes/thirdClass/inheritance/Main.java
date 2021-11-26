@@ -11,7 +11,7 @@ public class Main {
 
         BoxWeight box3 = new BoxWeight();
         Box box4 = new BoxWeight(2, 3, 4, 5);
-//        System.out.println(box4.weight); ----> Here we cannot access weight variable because
+//        System.out.println(box4.weight); //----> Here we cannot access weight variable because
 //        box4 is the type of reference variable i.e. Box and not the type of object i.e. BoxWeight
 //        that determines what members can be accessed
 //        i.e. you will have access to only those parts which are defined in super class which BOX.
@@ -23,6 +23,5 @@ public class Main {
 //        hence, you should have access to weight variable
 //        this also means, that the ones you are trying to access should be initialized
 //        but here, when the obj itself is of type parent class, how will you call the constructor of child class
-
     }
 }

@@ -90,6 +90,13 @@ public class ThingstoLearn {
 //      15. We can use method of another java file if they are in same package
 //          but we have to import it if it is in another package
 
-//      16.
+//      16. Super Keyword:
+//        to call the constructor of "directly" above class from which it is inherited.
+//        we can also call super constructor in the top class (parent class)
+//        and it will call object class (all classes are by default inherited from object class)
+//        It can also be use as this keyword like super.variable_name but the only difference is
+//        it will only be able to access super class keyword
+//        Example:
+//        System.out.println(super.variable_name);
     }
 }
