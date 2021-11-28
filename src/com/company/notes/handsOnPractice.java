@@ -1,5 +1,7 @@
 package com.company.notes;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class handsOnPractice {
@@ -40,19 +42,40 @@ public class handsOnPractice {
 //        String a = "Kush Garg";
 //        System.out.println(Arrays.toString(a.toCharArray()));
 
-        A obj;
-        for(int i=0;i<1000000000;i++){
-            obj = new A();
-        }
-
+//        A obj;
+//        for(int i=0;i<1000000000;i++){
+//            obj = new A();
+//        }
+//        int a=2;
+//        int b=3;
+//        int tw=18;
+//        int lcm=6;
+//        int aw=lcm/a;
+//        int bw=lcm/b;
+//        int cw=aw+bw;
+//        int mul=tw/cw;
+//
+//        int totaltime=lcm*mul;
+//        System.out.println(totaltime);
+//        System.out.println(Arrays.toString(new String("Kush").toCharArray()));
+//        Integer a=15;
+//        System.out.println(Arrays.toString(Integer.toString(a).toCharArray()));
+//        System.out.println(a.getClass().getSimpleName());
+//        int[] arr=new int[]{2,5,9,8};
+//        System.out.println(Arrays.toString(arr));
+//        int a=-2;
+//        System.out.println(a>>1);
+        System.out.println(new String("kush")+new ArrayList<>());
+        String ch=in.nextLine();
+        System.out.println(Arrays.toString(ch.split("")));
     }
 }
-class A{
-    int rno = 4;
-
-
-    @Override
-    protected void finalize() throws Throwable {
-        System.out.println("Object is destroyed");
-    }
-}
+//class A{
+//    int rno = 4;
+//
+//
+//    @Override
+//    protected void finalize() throws Throwable {
+//        System.out.println("Object is destroyed");
+//    }
+//}

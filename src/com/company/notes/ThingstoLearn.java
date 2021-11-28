@@ -1,12 +1,13 @@
 package com.company.notes;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ThingstoLearn {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 //     1. int number1 = 123;
-//        String str1 = Integer.toString(number1);
+//        String str1 = Integer.toString(number1); or String.valueof(number1)
 //        System.out.println(str1);
 //        String str = "123";
 //        int number = Integer.parseInt(str);
@@ -14,6 +15,7 @@ public class ThingstoLearn {
 //
 //     2. String a =" Kush Garg";
 //        # To change a into character array: b = a.toCharArray();
+//        System.out.println(Arrays.toString(new String("Kush").toCharArray()));
 //        # To display array in list format like python : Arrays.toString(b);
 //
 //     3. To find GCD of 2 numbers :
@@ -91,14 +93,54 @@ public class ThingstoLearn {
 //          but we have to import it if it is in another package
 
 //      16. Super Keyword:
-//        to call the constructor of "directly" above class from which it is inherited.
-//        we can also call super constructor in the top class (parent class)
-//        and it will call object class (all classes are by default inherited from object class)
-//        It can also be use as this keyword like super.variable_name but the only difference is
-//        it will only be able to access super class keyword
-//        Ex:
-//        System.out.println(super.variable_name);
-//        Also it is mandatory to initialize super class before any initialization of child class
-//        because parent class donot care what child class contains but child class do
+//          to call the constructor of "directly" above class from which it is inherited.
+//          we can also call super constructor in the top class (parent class)
+//          and it will call object class (all classes are by default inherited from object class)
+//          It can also be use as this keyword like super.variable_name but the only difference is
+//          it will only be able to access super class keyword
+//          Ex:
+//          System.out.println(super.variable_name);
+//          Also it is mandatory to initialize super class before any initialization of child class
+//          because parent class donot care what child class contains but child class do
+//
+//      17. To know the datatype:
+//          System.out.println(a.getClass().getSimpleName());
+//          but here a should be an object so better to use Wrapper classes
+
+//      18. Printing decimal till n digits:
+//              float b = 12.56342f;
+//              System.out.printf("float till 2 : %.2f",b);
+//              System.out.printf("Pie: %.2f", Math.PI);
+
+//      19. Placeholders in JAVA:
+//                %c - Character
+//                %d - Decimal number (base 10)
+//                %e - Exponential floating-point number
+//                %f - Floating-point number
+//                %i - Integer (base 10)
+//                %o - Octal number (base 8)
+//                %s - String
+//                %u - Unsigned decimal (integer) number
+//                %x - Hexadecimal number (base 16)
+//                %t - Date/time
+//                %n - Newline
+
+//        20. Concatenation in string:
+//                System.out.println('a'+'b'); ------> 100;
+//                System.out.println("a"+"b"); ------> ab;
+//                System.out.println('a'+1);  ------> 98;
+//                System.out.println((char)('a'+1));----->b;
+//                System.out.println("a"+1);----->a1;
+//                System.out.println(new String("kush")+new ArrayList<>());----->kush[];
+//               ***NOTE***
+//                    Atlest one object needs to be string to concatenate 2 objects
+//                    for eg:;
+//                    System.out.println(1+2);----->3;
+//                    System.out.println(1+""+2);----->12;
+
+//        String ch="a";
+//        ch=ch+"b";
+
+
     }
 }
