@@ -8,6 +8,7 @@ public class Main {
         Circle circle = new Circle();
         Square square = new Square();
 
-        shape.area();
+        Shapes sqaure2 = new Square();
+        sqaure2.area();
     }
 }

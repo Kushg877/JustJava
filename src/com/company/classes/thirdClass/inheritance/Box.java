@@ -27,8 +27,8 @@ public class Box {
 
     Box(Box old){  // copy constructor..previously we use another instead of old but it doesnt matter
         this.l = old.l;
-        this.h = old.l;
-        this.w = old.l;
+        this.h = old.h;
+        this.w = old.w;
     }
 
     public void information()
