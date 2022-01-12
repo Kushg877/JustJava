@@ -138,8 +138,7 @@ public class ThingstoLearn {
 //                    System.out.println(1+2);----->3;
 //                    System.out.println(1+""+2);----->12;
 
-//        String ch="a";
-//        ch=ch+"b";
+;
 
 
     }
