@@ -138,8 +138,6 @@ public class ThingstoLearn {
 //                    System.out.println(1+2);----->3;
 //                    System.out.println(1+""+2);----->12;
 
-;
-
 
     }
 }
