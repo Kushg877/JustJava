@@ -65,10 +65,26 @@ public class handsOnPractice {
 //        System.out.println(Arrays.toString(arr));
 //        int a=-2;
 //        System.out.println(a>>1);
-        System.out.println(new String("kush")+new ArrayList<>());
-        String ch=in.nextLine();
-        System.out.println(Arrays.toString(ch.split("")));
+//        System.out.println(new String("kush")+new ArrayList<>());
+//        String ch=in.nextLine();
+//        System.out.println(Arrays.toString(ch.split("")));
+        StringBuilder builder=new StringBuilder();
+        int ch= in.nextInt();
+        builder.append(ch);
+        System.out.println(builder);
+//        char ac= in.nextLine().charAt(0);
+//        StringBuilder a = builder.append(ac);
+//        System.out.println(a);
+//        System.out.println(builder);
+
+        char c='a';
+        builder.append(c);
+        System.out.println(builder);
+        StringBuilder builder1= new StringBuilder("1a");
+        System.out.println(builder.compareTo(builder1));
+        
     }
+
 }
 //class A{
 //    int rno = 4;

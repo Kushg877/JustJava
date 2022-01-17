@@ -138,6 +138,10 @@ public class ThingstoLearn {
 //                    System.out.println(1+2);----->3;
 //                    System.out.println(1+""+2);----->12;
 
+//        21. in.next(): It reads input until it encounters space
+//            in.nextLine(): It reads input until it encounters next line;
+//            In case of getting character use in.next()
+
 
     }
 }
