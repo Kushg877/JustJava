@@ -14,7 +14,7 @@ public class firstClass {
 //           constructor(if defined) will be final otherwise default value set in class will be final
 //           There is a catch-----> if you initialize any value while defining but change that value in respective
 //           constructor then the value in constructor will be final as in case of prashant object below and
-//           if you change value in maine after that declaring statement then that value will be final
+//           if you change value in main after that declaring statement then that value will be final
 //           otherwise default value of that datatype will be final.
 
         Students[] student = new Students[5]; // By default stores null value.

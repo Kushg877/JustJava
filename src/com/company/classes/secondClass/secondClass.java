@@ -4,8 +4,13 @@ import java.util.Scanner;
 
 public class secondClass {
     static int a = 4;
-    static int b;
+    static int b = 5;
 
+    static {  //------> This block is executed only once as soon as it encounters Declaring of Human class first time. If another object will create after sometime then also this block will not execute. This block is executed only once(i.e when first object is created)
+
+        System.out.println("I am in static block and i will not execute again");
+        b=a*b;
+    }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -57,6 +62,11 @@ class Human {
     boolean married;
     static long population;
 
+    static void a(){
+        System.out.println("hello peter");
+//        System.out.println(this.age);  ----> Cannot use this keyword in static function
+    }
+
     Human(int age , String name, int salary, boolean married) {
         this.age=age;
         this.name=name;
@@ -64,7 +74,9 @@ class Human {
         this.salary=salary;
         Human.population+=1; // Also works with this.population += 1 as well but that is more right.
 //        Human sarika = new Human();
+        Human.a();
 
     }
+
 
 }

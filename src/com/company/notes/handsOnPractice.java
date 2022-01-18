@@ -82,6 +82,8 @@ public class handsOnPractice {
         System.out.println(builder);
         StringBuilder builder1= new StringBuilder("1a");
         System.out.println(builder.compareTo(builder1));
+        int[] ab=new int[]{1,2,3,};
+        char[] bc=new char[]{'a','b','c'};
         
     }
 
