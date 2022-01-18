@@ -142,6 +142,8 @@ public class ThingstoLearn {
 //            in.nextLine(): It reads input until it encounters next line;
 //            In case of getting character use in.next()
 
-
+//        22. String str="abc" is equivalent to:
+//             char[] bc=new char[]{'a','b','c'};
+//             String str=new String(data);
     }
 }
