@@ -57,7 +57,7 @@ class Students{
 // common idea is just put "this" in function(constructor) in classes if you want to change the value of class variables
 
     void changeName(String newName){
-        name = newName;
+        this.name = newName;
         /*
         or
         this.name = name;  -----> if you want same variable
