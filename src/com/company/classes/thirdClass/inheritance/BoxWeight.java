@@ -2,10 +2,12 @@ package com.company.classes.thirdClass.inheritance;
 
 public class BoxWeight extends Box{
     // child can access elements of parent class until and unless they are not private  but no vice vera for obvious reasons
+    double l;
     double weight;
 
     public BoxWeight() {
         super();
+        this.l=2;
         this.weight = -1;
     }
 
@@ -24,7 +26,7 @@ public class BoxWeight extends Box{
     public BoxWeight(double weight) {
         super();
         this.weight = -1;
-        System.out.println(super.weight);
+//        System.out.println(super.weight);
     }
     public BoxWeight(BoxWeight other ) {
         super(other);

@@ -1,12 +1,14 @@
 package com.company.classes.thirdClass.inheritance;
 
+import java.util.Arrays;
+
 public class Box {
     double l;
     double h;
     double w;
-    double weight;
 
     Box() {
+        super();
         this.l = -1;
         this.h = -1;
         this.w = -1;

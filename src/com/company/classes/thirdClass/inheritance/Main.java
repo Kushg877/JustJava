@@ -10,8 +10,12 @@ public class Main {
 //        // because l is the element of parent class i.e. Box
 //
 //        BoxWeight box3 = new BoxWeight(2,3);
-        Box box4 = new BoxWeight(2, 3, 4, 5);
-        System.out.println(box4.weight); //----> Here we cannot access weight variable because
+
+//        A m=new a();
+//        System.out.println(m.name());
+
+        Box box4 = new BoxWeight();
+//        System.out.println(box4.l); //----> Here we cannot access weight variable because
 //        box4 is the type of reference variable i.e. Box and not the type of object i.e. BoxWeight
 //        that determines what members can be accessed
 //        i.e. you will have access to only those parts which are defined in super class which BOX.
@@ -29,5 +33,9 @@ public class Main {
         BoxPrice box7 = new BoxPrice(box6);
         System.out.println(box7.h); // -----> This print statement and above print statement will print same thing.
 
+        Box box9=new BoxWeight(2,3,4,5);
+//        System.out.println(box9.l);
+//        BoxWeight box10=new Box();
+        
     }
 }
