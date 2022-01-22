@@ -150,6 +150,7 @@ public class ThingstoLearn {
 //                Though we cannnot create an object of abstract class but we can make a constructor of it.
 //                Because the constructor can be used by its child classes constructor using super();
 //            (b) You cannot create abstract constructors because constructors cannot be overriden.
-//            (c) Since static methods cannot be overriden so abstract static methods cannot be created but we can create static method inside abstract classes because static methods are not dependent on objects
+//            (c) Since static methods cannot be overriden so abstract static methods cannot be created but we can create
+//                static method inside abstract classes because static methods are not dependent on objects
     }
 }
