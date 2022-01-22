@@ -46,8 +46,8 @@ public class ThingstoLearn {
 //        constructor(if defined) will be final otherwise default value set in class will be final
 //        otherwise default value of that datatype will be final.
 //
-//     7. Primitives are not defined with "NEW" keyword because they are stored in stack memory and not in heap memory to make it fast.
-//        Also things which are defined with "NEW" keyword are called objects are stored in heap memory.
+//     7. Primitives are not defined with "NEW" keyword because they are stored in stack memory and not in heap memory
+//     to make it fast.Also things which are defined with "NEW" keyword are called objects are stored in heap memory.
 //
 //     8. After point 7 Here comes the role of "Wrapper class":
 //          Example:
