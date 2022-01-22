@@ -145,5 +145,11 @@ public class ThingstoLearn {
 //        22. String str="abc" is equivalent to:
 //             char[] bc=new char[]{'a','b','c'};
 //             String str=new String(data);
+
+//        23. (a) JAVA doesnot allow to create an object but if we implement its abstract method then we can do that.
+//                Though we cannnot create an object of abstract class but we can make a constructor of it.
+//                Because the constructor can be used by its child classes constructor using super();
+//            (b) You cannot create abstract constructors because constructors cannot be overriden
+//            (c) Since static methods cannot be overriden so abstract static methods cannot be created but we can create static method inside abstract classes because static methods are not dependent on objects
     }
 }
