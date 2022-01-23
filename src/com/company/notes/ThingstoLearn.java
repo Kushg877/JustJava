@@ -60,7 +60,7 @@ public class ThingstoLearn {
 //     9. Strings are immutable in JAVA i.e. we can not modify it.
 //
 //     10. "Final" keyword:
-//           when a primitve is "final" you can not change its value
+//           when a primitve is "final" you can not change or assign new value
 //             Example:
                 final int q =15;
 //                        q = 45;  -----> you cannot do this
@@ -152,5 +152,6 @@ public class ThingstoLearn {
 //            (b) You cannot create abstract constructors because constructors cannot be overriden.
 //            (c) Since static methods cannot be overriden so abstract static methods cannot be created but we can create
 //                static method inside abstract classes because static methods are not dependent on objects
+//            *** making objects of class is called "Instatiate"
     }
 }
