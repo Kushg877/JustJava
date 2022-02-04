@@ -1,4 +1,4 @@
-package com.company.classes.forthClass.AccessModifiers;
+package com.company.classes.forthClass;
 
 public class Main {
     public static void main(String[] args) {

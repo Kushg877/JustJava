@@ -7,6 +7,9 @@ public class Box {
     double h;
     double w;
 
+    public void fun(){
+
+    }
     Box() {
         super();
         this.l = -1;

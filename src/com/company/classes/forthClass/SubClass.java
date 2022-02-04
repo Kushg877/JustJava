@@ -1,4 +1,4 @@
-package com.company.classes.forthClass.AccessModifiers;
+package com.company.classes.forthClass;
 
 
 public class SubClass extends A {
